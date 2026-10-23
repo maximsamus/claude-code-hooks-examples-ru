@@ -1,0 +1,44 @@
+[
+  {
+    "name": "guard-allow",
+    "script": "protect_folder.py",
+    "input": "guard-allow.json",
+    "exit": 0,
+    "meaning": "действие разрешено"
+  },
+  {
+    "name": "guard-deny",
+    "script": "protect_folder.py",
+    "input": "guard-deny.json",
+    "exit": 2,
+    "meaning": "действие запрещено"
+  },
+  {
+    "name": "json-pass",
+    "script": "check_json.py",
+    "input": "json-pass.json",
+    "exit": 0,
+    "meaning": "JSON корректен"
+  },
+  {
+    "name": "json-fail",
+    "script": "check_json.py",
+    "input": "json-fail.json",
+    "exit": 2,
+    "meaning": "ошибка JSON сообщена"
+  },
+  {
+    "name": "log-pass",
+    "script": "record_check.py",
+    "input": "log-pass.json",
+    "exit": 0,
+    "meaning": "проверка пройдена"
+  },
+  {
+    "name": "log-fail",
+    "script": "record_check.py",
+    "input": "log-fail.json",
+    "exit": 2,
+    "meaning": "ошибка записана"
+  }
+]

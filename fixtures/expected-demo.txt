@@ -1,0 +1,7 @@
+guard-allow: exit=0 (действие разрешено)
+guard-deny: exit=2 (действие запрещено)
+json-pass: exit=0 (JSON корректен)
+json-fail: exit=2 (ошибка JSON сообщена)
+log-pass: exit=0 (проверка пройдена)
+log-fail: exit=2 (ошибка записана)
+Журнал: pass, fail; содержимое файлов не записано

@@ -1,0 +1,8 @@
+{
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Write",
+  "cwd": ".",
+  "tool_input": {
+    "file_path": "protected/keep.json"
+  }
+}
